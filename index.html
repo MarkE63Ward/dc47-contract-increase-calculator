@@ -103,9 +103,9 @@
        <p class="bigger-text">Longevity Base Salary Increase</p>
        <p>This sections shows your current longevity pay and yearly base salary increase with the new longevity percentages. These will increase as your base salary increases & as you obtain additional years of service milestones</p>
        <p><strong style="color: #222;"></strong>Longevity Pay (Current):</strong> $<span id="longevityNow"></span></p>
-      <p><strong>Longevity Pay (New - Yr1):</strong> $<span id="longevity1"></span></p>
-      <p><strong>Longevity Pay (New - Yr2):</strong> $<span id="longevity2"></span></p>
-      <p><strong>Longevity Pay (New - Yr3):</strong> $<span id="longevity3"></span></p>
+      <p><strong>Longevity Pay (New - Year 1):</strong> $<span id="longevity1"></span></p>
+      <p><strong>Longevity Pay (New - Year 2):</strong> $<span id="longevity2"></span></p>
+      <p><strong>Longevity Pay (New - Year 3):</strong> $<span id="longevity3"></span></p>
       
       <hr />
 
@@ -209,7 +209,7 @@
       const y0 = base;
       const y1 = y0 * 1.025;
       const y2 = y1 * 1.03;
-      const y3 = y2 * 1.04;
+      const y3 = y2 * 1.0407;
 
       const hr0 = y0 / 1950;
       const hr1 = y1 / 1950;
@@ -269,11 +269,10 @@
     yearsServiceInput.addEventListener("input", calculate);
     shiftTypeInput.addEventListener("input", calculate);
   </script>
-
+<p><strong>Remeber your step increases are not included in any of these calculations and will only increase your salary more!</strong></p>
   <p>Dates for voting will be from Friday July 18th 5PM till Thursday July 24th 5PM.</p>
   <p style="text-align:center; margin-bottom: 1rem;">
     <a href="https://www.surveymonkey.com/r/MZGFQ6J" target="_blank">Navigate to the voting link</a>
   </p>
 </body>
 </html>
-
